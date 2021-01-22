@@ -1,7 +1,7 @@
 .container {
     display: inline-block;
     width: 100%;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 .container > .row {
     display: inline-block;
