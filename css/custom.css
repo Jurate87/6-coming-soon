@@ -46,3 +46,53 @@
     margin-bottom: 20px;
 }
 
+.left-column {
+    display: inline-block;
+    width: 50%;
+    float: left;
+
+
+}
+
+.right-column {
+    display: inline-block;
+    width: 40%;
+    float: right;
+
+}
+
+main h2 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+main p {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    color: #777
+}
+
+main p > a {
+    color: #E71E62;
+    text-decoration: none;
+}
+
+main p > a:hover {
+    text-decoration: underline;
+
+}
+
+@media (max-width: 900px) {
+    .left-column {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    
+    .right-column {
+        width: 100%;
+    }
+
+}
