@@ -1,7 +1,7 @@
 /* common style */
 
 .bg-blue {
-    background-color: steelblue;
+    background-color:  #03a7f2;
 }
 
 .row-short {
@@ -103,6 +103,32 @@ main p > a:hover {
 }
 
 /* footer section */
+footer.container {
+    padding-top: 0;
+}
+
+footer .socials {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+footer .socials > a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 2px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+footer .socials > a:hover {
+    background-color: #fff;
+    color: #03a7f2;
+}
 
 footer img {
     display: inline-block;
@@ -140,8 +166,16 @@ footer .description {
     width: 100%;
     color: #fff9;
     line-height: 30px;
-
 }
 footer p > a {
     color: #fff;
+}
+
+@media (max-width: 700px) {
+    footer .bottom-texts > p {
+        width: 100%;
+    }
+    footer .bottom-texts > p::before {
+        display: none;
+    }
 }
