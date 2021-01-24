@@ -1,3 +1,4 @@
+/* common style */
 
 .bg-blue {
     background-color: steelblue;
@@ -6,6 +7,8 @@
 .row-short {
     text-align: center;
 }
+
+/* hero section */
 
 .hero {
     min-height: 100vh;
@@ -61,6 +64,8 @@
 
 }
 
+/* main section */
+
 main h2 {
     display: inline-block;
     width: 100%;
@@ -95,4 +100,32 @@ main p > a:hover {
         width: 100%;
     }
 
+}
+
+/* footer section */
+
+footer img {
+    display: inline-block;
+    height: 40px;
+    margin-bottom: 30px;
+}
+footer .bottom-texts {
+    display: inline-block;
+    width: 100%;
+    color: #fff9;
+}
+footer .bottom-texts > p {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 30px;
+}
+footer .description {
+    display: inline-block;
+    width: 100%;
+    color: #fff9;
+    line-height: 30px;
+
+}
+footer p > a {
+    color: #fff;
 }
