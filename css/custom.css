@@ -1,7 +1,7 @@
 /* common style */
 
-.bg-blue {
-    background-color:  #03a7f2;
+.bg-main-color {
+    background-color:  var(--main-color);
 }
 
 .row-short {
@@ -81,7 +81,7 @@ main p {
 }
 
 main p > a {
-    color: #E71E62;
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ footer .socials > a {
 }
 footer .socials > a:hover {
     background-color: #fff;
-    color: #03a7f2;
+    color: var(--main-color);
 }
 
 footer img {
