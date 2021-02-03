@@ -9,3 +9,5 @@ import {progressBarData} from './data/progressBarData.js';
 renderProgressBars('.left-column', progressBarData);
 renderSocials('footer > .socials', socialsData);
 
+
+
