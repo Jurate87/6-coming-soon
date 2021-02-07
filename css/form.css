@@ -4,12 +4,19 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+.form.single-column {
+    grid-template-columns: 1fr;
+}
+.form > label {
+    display: none;
+    font-size: 0;
+}
 .form > input,
 .form > textarea {
     width: 100%;
     padding: 10px 0;
     line-height: 24px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-bottom: 2px #ccc solid;
 
@@ -19,6 +26,10 @@
     resize: vertical;
     min-height: 92px;
     max-height: 260px;
+}
+.form.single-column > .btn {
+    justify-self: center;
+
 }
 .form > .btn {
     grid-column: 1 / 3;
