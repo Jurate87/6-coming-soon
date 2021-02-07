@@ -48,6 +48,15 @@
 .hero .form {
     margin-bottom: 20px;
 }
+.hero form input {
+    background-color: transparent;
+    border-bottom-color: #fff;
+    color: #fff;
+}
+.hero form input::placeholder {
+    color: #fff;
+    font-style: italic;
+}
 
 .left-column {
     display: inline-block;
@@ -118,17 +127,19 @@ footer .socials > a {
     width: 36px;
     height: 36px;
     margin: 2px;
-    font-size: 20px;
+    font-size: 0px;
     line-height: 32px;
     color: #fff;
     text-decoration: none;
     border-radius: 50%;
     transition: all 0.5s;
 }
+footer .socials > a::before {
+    font-size: 20px;
+}
 footer .socials > a:hover {
     background-color: #fff;
-    color: var(--main-color);
-}
+    color: var(--main-color);}
 
 footer img {
     display: inline-block;

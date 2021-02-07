@@ -40,7 +40,7 @@ function renderSocials(selector, data){
                 continue;
             }
     
-            HTML += `<a href="${item.href}" target="_blank" class="fa fa-${item.icon}"></a> `;
+            HTML += `<a href="${item.href}" target="_blank" class="fa fa-${item.icon}">${item.icon}</a> `;
         }
     
         // post validation
