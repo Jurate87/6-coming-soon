@@ -19,6 +19,7 @@
     font-size: 18px;
     border: none;
     border-bottom: 2px #ccc solid;
+    /*outline: none;*/
 
 }
 .form > textarea {
